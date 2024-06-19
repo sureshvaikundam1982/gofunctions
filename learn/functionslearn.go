@@ -56,6 +56,11 @@ func sliceeg() {
 	fmt.Println(len(xs))
 	fmt.Println(cap(xs))
 
+	xi = append(xi, 12)
+	fmt.Println(xi)
+	fmt.Println(len(xi))
+	fmt.Println(cap(xi))
+
 }
 
 func main() {

@@ -24,11 +24,27 @@ func printGo2(x int, str string) {
 	}
 }
 
+func arrayeg() {
+	var arr [5]int
+
+	arr[0] = 1
+	arr[1] = 2
+	arr[2] = 3
+	arr[3] = 4
+	arr[4] = 5
+
+	fmt.Println(arr)
+	fmt.Println(len(arr))
+	fmt.Println(cap(arr))
+
+}
+
 func main() {
 
 	themeSong()
 	goGoGadget("Go")
 	printGo(5)
 	printGo2(6, "suresh")
+	arrayeg()
 
 }

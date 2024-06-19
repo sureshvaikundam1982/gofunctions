@@ -22,6 +22,6 @@ func main() {
 
 	themeSong()
 	goGoGadget("Go")
-	printGo("Go")
+	printGo(5)
 
 }

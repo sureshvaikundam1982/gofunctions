@@ -4,9 +4,19 @@ import fmt
     
 
 func themeSong(){
-	fmt.Println()
+	fmt.Println("Go Gadget Go")
 }
 
+func goGoGadget(x String){
+	fmt.Println("Go Gadget Go",x)
+}
+
+
+func printGo(x int){
+	for i :=0 ; i<= x; i++{
+		fmt.Println("Go")
+	}
+}
 
 
 

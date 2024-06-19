@@ -39,6 +39,25 @@ func arrayeg() {
 
 }
 
+func sliceeg() {
+	empty := []int{}
+	xi := []int{2, 4, 6, 8, 10}
+	xs := []string{"go", "gadget", "go"}
+
+	fmt.Println(empty)
+	fmt.Println(len(empty))
+	fmt.Println(cap(empty))
+
+	fmt.Println(xi)
+	fmt.Println(len(xi))
+	fmt.Println(cap(xi))
+
+	fmt.Println(xs)
+	fmt.Println(len(xs))
+	fmt.Println(cap(xs))
+
+}
+
 func main() {
 
 	themeSong()
@@ -46,5 +65,6 @@ func main() {
 	printGo(5)
 	printGo2(6, "suresh")
 	arrayeg()
+	sliceeg()
 
 }

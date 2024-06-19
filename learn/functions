@@ -1,0 +1,17 @@
+package learn
+
+import fmt
+    
+
+func themeSong(){
+	fmt.Println()
+}
+
+
+
+
+func main(){
+	themeSong()
+	goGoGadget("arms")
+	printGo(5)
+}
